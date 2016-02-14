@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-void main()
+int main()
 {
 	char name[10][8], tname[10][8], temp[8];
 	
@@ -35,4 +35,5 @@ void main()
 	}
 	printf("-----------------------------------------------\n");
 	getch();
+	return 0;
 }

@@ -1,6 +1,6 @@
 #include "stdio.h"
 
-void int main()
+int main()
 {
 	int array[10];
 	int num, temp, keynum;
@@ -58,4 +58,5 @@ void int main()
 		printf("SEARCH FAILED! \n Number not found.");
 	}
 	getch();
+	return 0;
 }

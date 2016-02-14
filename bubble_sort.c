@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAXSIZE 10
 
-void main{
+int main{
 	int array[MAXSIZE];
 	int num, temp;
 
@@ -32,4 +32,5 @@ void main{
 		printf("%d\n", array[i]);
 	}
 	getch();
+	return 0;
 }
