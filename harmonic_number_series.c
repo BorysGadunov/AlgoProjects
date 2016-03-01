@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
 	double n, sum = 0, i;
 	clrscr();
